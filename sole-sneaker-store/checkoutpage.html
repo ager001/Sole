@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Checkout - Art Sole KE</title>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar-flow">
+    <div class="container">
+      <a href="webstructure.html" class="logo-flow">Art Sole KE</a>
+      <ul class="nav-links-flow">
+        <li><a href="webstructure.html" class="nav-link-flow" data-filter-flow="men">Men</a></li>
+        <li><a href="webstructure.html" class="nav-link-flow" data-filter-flow="women">Women</a></li>
+        <li><a href="webstructure.html" class="nav-link-flow" data-filter-flow="kids">Kids</a></li>
+        <li><a href="webstructure.html" class="nav-link-flow" data-filter-flow="collections">Collections</a></li>
+        <li><a href="webstructure.html" class="nav-link-flow" data-filter-flow="sale">Sale</a></li>
+      </ul>
+      <div class="nav-actions-flow">
+        <a href="#" class="cart-icon-flow">
+          <i class="bi bi-cart4"></i>
+          <span id="cart-count-flow">0</span>
+        </a>
+        <a href="#" class="btn-flow" id="signin-flow">Sign In</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Checkout Section -->
+  <section class="checkout-flow">
+    <div class="container">
+      <h2 class="section-title-flow">Your Cart</h2>
+      <div class="cart-items-flow" id="cart-items-flow"></div>
+      <div class="cart-total-flow">
+        Total: <span id="cart-total-flow">KES 0</span>
+      </div>
+      <a href="#" class="btn-flow" id="checkout-btn-flow">Proceed to Payment</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-flow">
+    <div class="container">
+      <div class="footer-grid-flow">
+        <div class="footer-section-flow">
+          <h4>Art Sole KE</h4>
+          <p>Bringing you the best in sneaker fashion and performance.</p>
+        </div>
+        <div class="footer-section-flow">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="webstructure.html">Men</a></li>
+            <li><a href="webstructure.html">Women</a></li>
+            <li><a href="webstructure.html">Kids</a></li>
+            <li><a href="webstructure.html">Sale</a></li>
+          </ul>
+        </div>
+        <div class="footer-section-flow">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div class="footer-section-flow">
+          <h4>Follow Us</h4>
+          <div class="social-icons-flow">
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-copy-flow">© 2025 Art Sole KE. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="src/script.js"></script>
+</body>
+</html>

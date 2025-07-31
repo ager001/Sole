@@ -1,0 +1,204 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar Styles */
+.navbar-flow {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo-flow {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links-flow {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link-flow {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-actions-flow {
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon-flow {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+#cart-count-flow {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 0.2rem 0.5rem;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}
+
+/* Hero Section Styles */
+.hero-flow {
+    background: url('../png images/hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.primary-title-flow {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Our Products Section Styles */
+.our-products-flow {
+    padding: 2rem 0;
+}
+
+.section-title-flow {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.product-grid-flow {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.product-flow {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.image-container-flow {
+    overflow: hidden;
+}
+
+.product-image-flow {
+    width: 100%;
+    height: auto;
+}
+
+.product-title-flow {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.product-description-flow {
+    margin: 0.5rem 0;
+}
+
+.price-flow {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Button Styles */
+.btn-flow {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-flow:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+.footer-flow {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.footer-section-flow {
+    margin-bottom: 1rem;
+}
+
+.footer-copy-flow {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Notification Styles */
+.notification-flow {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    display: none;
+}
+
+/* Cart Sidebar Styles */
+.cart-sidebar-flow {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s;
+}
+
+.cart-header-flow {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-cart-flow {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.cart-total-flow {
+    padding: 1rem;
+    font-weight: bold;
+    text-align: right;
+}
