@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Michael",
+        "age": "25",
+        "is Programmer": true,
+        "skills": ["html", "css", "javascript"],
+        "adress": {
+            "city": "Nairobi",
+            "state": "Kasarani" ,
+            "country": "Kenya"
+        }
+
+
+    },
+    
+    {
+        "name": "Tina",
+        "age": "25",
+        "is Programmer": false,
+        "skills": null,
+        "adress": {
+            "city": "Mombasa",
+            "state": "Likoni" ,
+            "country": "Kenya"
+        }
+
+
+    }
+
+]
